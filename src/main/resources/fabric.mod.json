@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nitroclient",
+  "version": "${version}",
+  "name": "Nitro Client",
+  "description": "A customizable client-side module GUI starter for Minecraft 1.21.4.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.nitroclient.NitroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
